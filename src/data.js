@@ -74,3 +74,35 @@ export const tracks = [
     url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3',
   },
 ];
+
+// Événements saisis par les administrateurs
+export const events = [
+  { id: 'e1', title: 'Festival de la Rumba', date: 'Sam 14 Nov', place: 'Pointe-Noire', color: '#6D28D9' },
+  { id: 'e2', title: 'Concert Hip-hop Night', date: 'Ven 27 Nov', place: 'Brazzaville', color: '#BE185D' },
+  { id: 'e3', title: 'Soirée Gospel', date: 'Dim 6 Déc', place: 'Dolisie', color: '#0F766E' },
+];
+
+// Les 10 dernières chansons publiées (la plus récente en premier)
+export const latestReleases = [
+  { id: 'r1', title: 'Nouvelle étoile', artist: 'Artiste A', catalogue: 'Rumba', date: "Aujourd'hui", color: '#6D28D9' },
+  { id: 'r2', title: 'Ambiance', artist: 'Artiste B', catalogue: 'Ndombolo', date: "Aujourd'hui", color: '#BE185D' },
+  { id: 'r3', title: 'Mon quartier', artist: 'Artiste C', catalogue: 'Hip-hop', date: 'Hier', color: '#0F766E' },
+  { id: 'r4', title: 'Louange', artist: 'Artiste D', catalogue: 'Gospel', date: 'Hier', color: '#4C1D95' },
+  { id: 'r5', title: 'Soleil', artist: 'Artiste E', catalogue: 'Afrobeat', date: 'Il y a 2 j', color: '#7C3AED' },
+  { id: 'r6', title: 'Les anciens', artist: 'Artiste F', catalogue: 'Traditionnel', date: 'Il y a 2 j', color: '#B45309' },
+  { id: 'r7', title: 'Nuit de Brazza', artist: 'Artiste A', catalogue: 'Rumba', date: 'Il y a 3 j', color: '#5B21B6' },
+  { id: 'r8', title: 'Danse', artist: 'Artiste G', catalogue: 'Ndombolo', date: 'Il y a 3 j', color: '#9D174D' },
+  { id: 'r9', title: 'Rue 12', artist: 'Artiste H', catalogue: 'Hip-hop', date: 'Il y a 4 j', color: '#115E59' },
+  { id: 'r10', title: 'Prière', artist: 'Artiste I', catalogue: 'Gospel', date: 'Il y a 5 j', color: '#6B21A8' },
+];
+
+// Artistes les plus écoutés (classés du plus au moins écouté)
+export const mostListened = [
+  { id: 'm1', name: 'Artiste A', catalogue: 'Rumba', streams: '1,2 M', color: '#6D28D9' },
+  { id: 'm2', name: 'Artiste B', catalogue: 'Ndombolo', streams: '980 K', color: '#BE185D' },
+  { id: 'm3', name: 'Artiste C', catalogue: 'Hip-hop', streams: '850 K', color: '#0F766E' },
+  { id: 'm4', name: 'Artiste G', catalogue: 'Ndombolo', streams: '720 K', color: '#9D174D' },
+  { id: 'm5', name: 'Artiste D', catalogue: 'Gospel', streams: '640 K', color: '#4C1D95' },
+  { id: 'm6', name: 'Artiste E', catalogue: 'Afrobeat', streams: '510 K', color: '#7C3AED' },
+  { id: 'm7', name: 'Artiste F', catalogue: 'Traditionnel', streams: '300 K', color: '#B45309' },
+];

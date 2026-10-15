@@ -9,6 +9,7 @@ import { useFonts, Figtree_400Regular, Figtree_600SemiBold, Figtree_700Bold } fr
 import HomeScreen from './src/screens/HomeScreen';
 import PlaylistsScreen from './src/screens/PlaylistsScreen';
 import PlayerScreen from './src/screens/PlayerScreen';
+import NewsScreen from './src/screens/NewsScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -51,7 +52,7 @@ export default function App() {
         <Tab.Screen name="Accueil" component={HomeScreen} />
         <Tab.Screen name="Playlists" component={PlaylistsScreen} />
         <Tab.Screen name="Lecteur" component={PlayerScreen} options={{ tabBarStyle: { display: 'none' } }}/>
-        <Tab.Screen name="News">{() => <Placeholder title="News" />}</Tab.Screen>
+        <Tab.Screen name="News" component={NewsScreen} />
         <Tab.Screen name="Profil">{() => <Placeholder title="Profil" />}</Tab.Screen>
       </Tab.Navigator>
     </NavigationContainer>
