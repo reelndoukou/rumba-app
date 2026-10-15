@@ -8,6 +8,7 @@ import Placeholder from './src/Placeholder';
 import { useFonts, Figtree_400Regular, Figtree_600SemiBold, Figtree_700Bold } from '@expo-google-fonts/figtree';
 import HomeScreen from './src/screens/HomeScreen';
 import PlaylistsScreen from './src/screens/PlaylistsScreen';
+import PlayerScreen from './src/screens/PlayerScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -49,7 +50,7 @@ export default function App() {
       >
         <Tab.Screen name="Accueil" component={HomeScreen} />
         <Tab.Screen name="Playlists" component={PlaylistsScreen} />
-        <Tab.Screen name="Lecteur">{() => <Placeholder title="Lecteur" />}</Tab.Screen>
+        <Tab.Screen name="Lecteur" component={PlayerScreen} options={{ tabBarStyle: { display: 'none' } }}/>
         <Tab.Screen name="News">{() => <Placeholder title="News" />}</Tab.Screen>
         <Tab.Screen name="Profil">{() => <Placeholder title="Profil" />}</Tab.Screen>
       </Tab.Navigator>

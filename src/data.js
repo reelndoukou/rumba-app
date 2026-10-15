@@ -40,3 +40,31 @@ export const initialPlaylists = {
 
 // Couleurs utilisées pour les nouvelles playlists
 export const playlistColors = ['#6D28D9', '#7C3AED', '#5B21B6', '#4C1D95', '#581C87', '#6B21A8'];
+
+// Les liens audio sont des morceaux de démonstration (le temps du développement)
+export const tracks = [
+  {
+    id: 't1',
+    title: 'Titre de test 1',
+    artist: 'Artiste A',
+    streams: '120 K',
+    color: '#6D28D9',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
+  },
+  {
+    id: 't2',
+    title: 'Titre de test 2',
+    artist: 'Artiste B',
+    streams: '98 K',
+    color: '#BE185D',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
+  },
+  {
+    id: 't3',
+    title: 'Titre de test 3',
+    artist: 'Artiste C',
+    streams: '75 K',
+    color: '#0F766E',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3',
+  },
+];
