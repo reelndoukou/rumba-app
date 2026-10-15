@@ -25,3 +25,18 @@ export const topAlbums = [
   { id: 'al2', title: 'Album 2', subtitle: 'Artiste B', color: '#5B21B6' },
   { id: 'al3', title: 'Album 3', subtitle: 'Artiste C', color: '#6D28D9' },
 ];
+
+export const initialPlaylists = {
+  downloaded: [
+    { id: 'd1', title: 'Mes favoris hors ligne', count: 12, color: '#6D28D9' },
+    { id: 'd2', title: 'Rumba du soir', count: 20, color: '#5B21B6' },
+  ],
+  streaming: [
+    { id: 's1', title: 'Découvertes de la semaine', count: 30, color: '#7C3AED' },
+    { id: 's2', title: 'Ndombolo party', count: 25, color: '#4C1D95' },
+    { id: 's3', title: 'Gospel du dimanche', count: 18, color: '#581C87' },
+  ],
+};
+
+// Couleurs utilisées pour les nouvelles playlists
+export const playlistColors = ['#6D28D9', '#7C3AED', '#5B21B6', '#4C1D95', '#581C87', '#6B21A8'];
